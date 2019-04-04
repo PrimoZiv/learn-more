@@ -6,8 +6,6 @@ script:
 before_deploy:
   - npm run build
 deploy:
-  repo: PrimoZiv/primoziv.github.io
-  target_branch: master
   email: zpdong93@gmail.com
   name: Primo
   provider: pages
